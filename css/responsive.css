@@ -1,0 +1,446 @@
+@media (min-width: 992px) {
+  .container {
+    max-width: 97.265rem;
+  }
+  .container_md {
+    max-width: 110rem;
+  }
+  html {
+    font-size: 0.781vw;
+  }
+}
+
+/* ------ Medium devices (tablets, 991px and down) -----*/
+
+@media (max-width: 991px) {
+  html {
+    font-size: 62.5%;
+  }
+  .title_xxl {
+    font-size: 3.3rem;
+  }
+  .title_md {
+    font-size: 3rem;
+    line-height: 4rem;
+    padding-bottom: 0.5rem;
+  }
+  br {
+    display: none;
+  }
+  .container-fluid {
+    padding: 0 2rem;
+    max-width: 720px;
+  }
+  /* ------------- Main Menu --------------- */
+  .navbar {
+    padding: 0;
+  }
+
+  /* ------------- Mobile Menu --------------- */
+  .mainmenu {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: -200vh;
+    left: 0;
+    z-index: 1025;
+    transition: 0.3s ease;
+  }
+  .mainmenu.toggle_menu {
+    top: 0;
+  }
+  .mainmenu .primary_menu {
+    display: grid;
+  }
+  .primary_menu {
+    position: absolute;
+    width: 38rem;
+    height: 38rem;
+    background: #000;
+    right: 50%;
+    transform: translateX(50%);
+    border-radius: 1rem;
+    top: 10rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5rem;
+  }
+  .mobilemenu_bg {
+    background: #000;
+    opacity: 0.5;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .primary_menu a {
+    color: #fff;
+    font-size: 3rem;
+    text-align: left;
+    width: 100%;
+  }
+  .primary_menu a:hover {
+    padding-left: 1rem;
+    text-decoration: underline;
+  }
+  .hamburger-menu.cross {
+    position: absolute;
+    right: 5rem;
+    z-index: 1;
+    top: 4rem;
+    transform: scale(1.5);
+  }
+  .hamburger-menu.cross span {
+    background: #fff;
+  }
+  /* ---------------- Hero Section -------------- */
+  .hero_section .form-group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .hero_section .title_xxl {
+    padding-bottom: 15rem;
+    text-align: center;
+  }
+  .text_white {
+    color: #fcf5f5;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+  }
+  .hero_section {
+    padding-top: 8rem;
+    padding-bottom: 4.5rem;
+  }
+
+  /* ---------------- Builthouse_section -------------- */
+  .builthouse_section .col-lg-6 {
+    padding: 0;
+  }
+  .Bhouse_box {
+    padding-bottom: 0;
+  }
+  .builthouse_section .row {
+    gap: 3rem;
+  }
+
+  /* -------------- About_section  --------------- */
+  .about_section .row {
+    gap: 3rem;
+  }
+  .side_title_box {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .text_2 {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+  }
+  .text_2 br {
+    display: none;
+  }
+  .about_section .title_md {
+    text-align: center;
+  }
+
+  /* --------------- Process Area --------------- */
+  .process_area {
+    padding: 7rem 0;
+  }
+  .process_area .row {
+    gap: 3rem 0;
+  }
+  .process_arrow {
+    display: none;
+  }
+  .process_area .row .col-lg-3 {
+    padding: 0 1rem;
+  }
+
+  /* --------------- promise_section --------------- */
+  .promise_section {
+    padding: 7rem 0;
+  }
+  .promise_section .row {
+    gap: 3rem 0;
+  }
+  .promise_section .col-lg-7,
+  .promise_section .col-lg-5 {
+    padding: 0 1rem;
+  }
+  /* ------------ process_area2 ----------- */
+  .process_area2 {
+    padding: 6rem 0;
+  }
+  .process_area2 .row:nth-child(1) {
+    gap: 0;
+  }
+
+  /* ------------ promise_section2 ----------- */
+  .promise_section2 {
+    padding: 7rem 0;
+  }
+  .promise_section2 .col-lg-6 {
+    padding-left: 1rem;
+  }
+  .promise_section2 .row {
+    gap: 4rem 0;
+  }
+
+  /* ------------ promise_section3 ----------- */
+  .promise_section3 .title_sm {
+    text-align: center;
+  }
+  .promise_section3 .col-lg-6 {
+    padding-left: 1rem;
+  }
+  .promise_section3 .row {
+    gap: 4rem 0;
+  }
+  .email_section {
+    justify-content: center !important;
+  }
+  .email_section .button_one {
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .email_section.email_section2 {
+    padding-bottom: 0;
+  }
+  /* --------------- Footer Section -------------- */
+  .footer_left {
+    padding: 0;
+    gap: 3rem;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footer_contents {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .email_section3 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+  }
+
+  .footer_right {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  }
+
+  .footer_social_icons {
+    padding-top: 5rem;
+    justify-content: center;
+  }
+  .footer_box {
+    padding: 0;
+  }
+}
+
+/*----- sm devices (tablets, 767px and down) -----*/
+
+@media (max-width: 767px) {
+  html {
+    font-size: 62.5%;
+  }
+  .container-fluid {
+    padding: 0 2rem;
+    max-width: 540px;
+  }
+  .form-group {
+    width: 100%;
+  }
+  .text_3 {
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+  }
+  .title_sm {
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+  }
+  .pb_35 {
+    padding-bottom: 2.5rem;
+  }
+  .pb_25 {
+    padding-bottom: 1.5rem;
+  }
+  .mb_30 {
+    margin-bottom: 2.5rem;
+  }
+  .mb_25 {
+    margin-bottom: 1.5rem;
+  }
+
+  /* ----------- Main Menu ---------- */
+  .site_header {
+    height: 6.5rem;
+  }
+
+  /* ----------- Mobile Menu ---------- */
+  .primary_menu a {
+    color: #fff;
+    font-size: 2.3rem;
+    text-align: left;
+    width: 100%;
+  }
+  .primary_menu {
+    position: absolute;
+    width: 30rem;
+    height: 28rem;
+    background: #000;
+    right: 50%;
+    transform: translateX(50%);
+    border-radius: 1rem;
+    top: 9rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3rem;
+    gap: 0rem;
+  }
+  .mainmenu .primary_menu {
+    display: grid !important;
+  }
+
+  /* ------------ hero_section -----------  */
+  .hero_section {
+    background: url(../img/header_pic.jpg) no-repeat scroll top left / cover;
+    margin-top: 6.5rem;
+  }
+  .hero_section .title_xxl {
+    padding-bottom: 12rem;
+    text-align: center;
+  }
+  .hero_section .form-group {
+    gap: 1rem;
+  }
+  .email_section {
+    padding-bottom: 7.5rem;
+  }
+  /* ------------ Built House Section -----------  */
+  .bh_text {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .bhouselink {
+    font-size: 1.2rem;
+    white-space: nowrap;
+    line-height: 2.8rem;
+  }
+  .BHTitle {
+    font-size: 1.6rem;
+  }
+
+  /* ------------ Built House Section 2 -----------  */
+  .bh_btns {
+    justify-content: flex-end !important;
+  }
+
+  /* ------------ sweethomes_section -----------  */
+  .sweethomes_section {
+    padding: 7rem 0;
+  }
+  .sweethomes_section .row .col-lg-6 {
+    padding: 0;
+  }
+
+  /* ------------ process_area ----------- */
+  .process_title {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    padding-top: 1rem;
+  }
+  .processimg_hover h3 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  /* ------------ Promise_Section 3 ----------- */
+  .promise_section3 {
+    padding: 7rem 0;
+  }
+  .email_section2 .form-group input,
+  .email_section2 .form-group input::placeholder {
+    font-size: 1.4rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* ------------ Featured Section ----------- */
+  .featured_content {
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+  }
+  .featured_img img {
+    height: 40rem;
+    object-fit: cover;
+  }
+}
+
+/*----- xs devices (landscape phones, 575px and down) -----*/
+
+@media (max-width: 575px) {
+  html {
+    font-size: 2.32vw;
+  }
+  .container-fluid {
+    padding: 0 2rem;
+    max-width: 100%;
+  }
+
+  /* ----------- Hamburger Menu ---------- */
+  .primary_menu {
+    width: calc(100% - 4rem);
+    height: 30rem;
+  }
+  .hamburger-menu.cross {
+    right: 2rem;
+    transform: scale(1.1);
+  }
+
+  /* ------------- Footer Section ------------ */
+  .site_footer {
+    padding: 7rem 0;
+  }
+  .footer_left {
+    gap: 3rem 0;
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer_contents {
+    flex-direction: column-reverse;
+    gap: 5rem;
+  }
+  .footer_social_icons {
+    padding-top: 3rem;
+    justify-content: flex-start;
+  }
+  .footer_box {
+    padding: 0;
+    text-align: left;
+    width: 100%;
+  }
+  .footerlink {
+    font-size: 1.4rem;
+    line-height: 1.2rem;
+  }
+  .footer_title {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+  .footer_right {
+    justify-content: flex-start;
+  }
+  .email_section3 .form-group {
+    width: 100%;
+  }
+}
