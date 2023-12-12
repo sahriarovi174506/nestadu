@@ -19,10 +19,10 @@
                 elementToModify.classList.remove("menu_up");
                 elementToModify.classList.remove("sticky");
             } else {
-                elementToModify.classList.add("menu_up");
+                elementToModify.classList.remove("menu_up");
             }
             if (scrollTop > lastScrollTop) {
-                elementToModify.classList.remove("menu_up");
+                elementToModify.classList.add("menu_up");
             }
             lastScrollTop = scrollTop;
         });
